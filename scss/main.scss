@@ -18,6 +18,10 @@ $GothBold: "Gotham bold";
 $GothBook: "Gotham book";
 $OpenSans: "Open Sans", sans-serif;
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;

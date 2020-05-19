@@ -21,10 +21,10 @@
 
             <div class="mainer">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-12">
                         <a class="block-nav__logo"></a>
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-lg-7 col-md-8">
                         <div class="block-nav__menu">
                             <a href="#gallery" class="block-nav__menu-link">About Us</a>
                             <a href="#we-do" class="block-nav__menu-link">projects</a>
@@ -32,7 +32,7 @@
                             <a href="#about" class="block-nav__menu-link">contact</a>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-lg-2 col-md-4">
                         <div class="block-nav__social">
                             <a class="block-nav__social-link"><i class="fab fa-facebook-f"></i></a>
                             <a class="block-nav__social-link"><i class="fab fa-twitter"></i></a>
@@ -94,12 +94,12 @@
 
                 <div class="row">
 
-                    <div class="col-md-7">
+                    <div class="col-lg-7 col-sm-12">
                         <div class="we-do__trade-rectangle"></div>
                         <img class="we-do__trade-image" src="image/trade.jpg" alt="">
                     </div>
 
-                    <div class="col-md-5">
+                    <div class="col-lg-5 col-sm-12">
 
                         <div class="we-do__cell">
 
@@ -127,7 +127,7 @@
 
                 <div class="row">
 
-                    <div class="col-md-5">
+                    <div class="col-lg-5 col-sm-12">
 
                         <div class="we-do__cell">
 
@@ -146,7 +146,7 @@
 
                     </div>
 
-                    <div class="col-md-7">
+                    <div class="col-lg-7 col-sm-12">
                         <div class="we-do__commers-image">
                             <div class="we-do__commerse-rectangle"></div>
                         </div>
@@ -270,25 +270,34 @@
 
             <div class="gallery__field">
 
-                <div class="gallery__left-img">
-                    <img class="gallery__image-big" src="image/gallery1.jpg" alt="">
+                <div class="gallery__image-left">
+                    <div class="gallery__image-big" src="image/gallery1.jpg" alt=""></div>
                 </div>
 
-                <div class="gallery__right-img">
+
+                <div class="gallery__image-right">
                     <img class="gallery__image-small" src="image/gallery2.jpg" alt="">
                     <img class="gallery__image-small" src="image/gallery3.jpg" alt="">
                     <img class="gallery__image-small" src="image/gallery4.jpg" alt="">
                     <img class="gallery__image-small" src="image/gallery5.jpg" alt="">
                 </div>
-
-
             </div>
             <div class="gallery__more">
 
-                <img class="gallery__image-more" src="image/gallery2.jpg" alt="">
-                <img class="gallery__image-more" src="image/gallery3.jpg" alt="">
-                <img class="gallery__image-more" src="image/gallery4.jpg" alt="">
-                <img class="gallery__image-more" src="image/gallery5.jpg" alt="">
+                <div class="gallery__field">
+
+                    <div class="gallery__image-left">
+                        <div class="gallery__image-big" src="image/gallery1.jpg" alt=""></div>
+                    </div>
+
+
+                    <div class="gallery__image-right">
+                        <img class="gallery__image-small" src="image/gallery2.jpg" alt="">
+                        <img class="gallery__image-small" src="image/gallery3.jpg" alt="">
+                        <img class="gallery__image-small" src="image/gallery4.jpg" alt="">
+                        <img class="gallery__image-small" src="image/gallery5.jpg" alt="">
+                    </div>
+                </div>
 
             </div>
 
@@ -315,7 +324,9 @@
             </div>
 
             <div class="footer__copyrights">
-                Copyrights © 2017 Monticello Group <div class="split"></div> Made with LOVE by Ga Huy
+                <p>Copyrights © 2017 Monticello Group</p>
+                <div class="split"></div>
+                <p>Made with LOVE by Ga Huy</p>
             </div>
 
             <div class="footer__card">
@@ -331,8 +342,8 @@
                         <p><i class="far fa-clock"></i>From 07:05AM to 19:30PM</p>
                     </div>
                     <div class="footer__form-field">
-                        <input type="text" name="name" id="name" placeholder="Name">
-                        <input type="email" name="mail" id="mail" placeholder="Email">
+                        <input type="text" name="name" id="name" placeholder="Name" required>
+                        <input type="email" name="mail" id="mail" placeholder="Email" required>
                         <button class="footer__form-submit">SUBMIT</button>
                     </div>
                 </form>

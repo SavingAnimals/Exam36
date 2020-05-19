@@ -1008,6 +1008,13 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer__form-field {
+    width: 100%;
   }
 }
 

@@ -732,6 +732,10 @@ body {
             display: flex;
             flex-direction: column;
             align-items: center;
+            width: 75%;
+        }
+        @media screen and (max-width: 500px) {
+            width: 100%;
         }
         .footer__form-submit {
             width: 140px;

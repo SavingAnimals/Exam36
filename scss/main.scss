@@ -124,8 +124,10 @@ body {
         border-radius: 50%;
         border: 1px solid white;
         transition-duration: 0.5s;
-        &:hover {
-            transform: rotateY(360deg);
+        @media screen and (min-width: 715px) {
+            &:hover {
+                transform: rotateY(360deg);
+            }
         }
     }
 }
@@ -645,8 +647,10 @@ body {
         border-radius: 50%;
         border: 1px solid white;
         transition-duration: 0.5s;
-        &:hover {
-            transform: rotateY(360deg);
+        @media screen and (min-width: 715px) {
+            &:hover {
+                transform: rotateY(360deg);
+            }
         }
     }
     &__copyrights {

@@ -165,9 +165,11 @@ body {
           transition-duration: 0.5s;
 }
 
-.block-nav__social-link:hover {
-  -webkit-transform: rotateY(360deg);
-          transform: rotateY(360deg);
+@media screen and (min-width: 715px) {
+  .block-nav__social-link:hover {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
 }
 
 .header {
@@ -870,9 +872,11 @@ body {
           transition-duration: 0.5s;
 }
 
-.footer__social-link:hover {
-  -webkit-transform: rotateY(360deg);
-          transform: rotateY(360deg);
+@media screen and (min-width: 715px) {
+  .footer__social-link:hover {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
 }
 
 .footer__copyrights {

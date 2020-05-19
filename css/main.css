@@ -703,6 +703,12 @@ body {
   }
 }
 
+@media screen and (max-width: 630px) {
+  .gallery__image-big {
+    margin-left: 0px;
+  }
+}
+
 .gallery__image-small {
   max-width: 280px;
   max-height: 210px;

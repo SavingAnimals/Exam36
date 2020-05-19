@@ -534,6 +534,9 @@ body {
             max-width: 570px;
             margin-left: 5px;
         }
+        @media screen and (max-width: 630px) {
+            margin-left: 0px;
+        }
     }
     &__image-small {
         max-width: 280px;
